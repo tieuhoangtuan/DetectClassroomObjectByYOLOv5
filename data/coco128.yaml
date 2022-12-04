@@ -1,0 +1,14 @@
+
+train: /content/drive/MyDrive/yolov5/data1/images/train  # train images (relative to 'path') 128 images
+val: /content/drive/MyDrive/yolov5/data1/images/valid  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+nc: 5
+# Classes
+names:
+  0: mouse
+  1: book
+  2: chair
+  3: white board
+  4: pen
+# Download script/URL (optional)
+download: https://ultralytics.com/assets/coco128.zip
